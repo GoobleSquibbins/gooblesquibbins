@@ -7,4 +7,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  modules: ['@nuxtjs/supabase'],
+  supabase: {
+    redirect: false
+  },
 })

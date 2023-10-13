@@ -1,7 +1,7 @@
 <template>
     <div  class ="h-full w-full md:w- flex flex-col items-center bg-[#080808]">  
         <div class="w-full md:w-full flex flex-col items-center">
-            <navbarr/>
+            <!-- <navbarr/> -->
             <Hero/>
             <main_content/>
             <foooter/>
