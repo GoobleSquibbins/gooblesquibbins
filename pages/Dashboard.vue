@@ -55,7 +55,7 @@
             <div id="curr-event"
                 class="md:w-full w-[90%] md:h-[450px] h-[300px] bg-[#575757] overflow-hidden relative rounded-[10px]">
                 <div id="diagonal"
-                    class="z-[2] absolute md:top-[30px] top-[100px] md:left-[-750px] left-[-350px] w-full h-[350px] bg-[#2c2c2c] rotate-45 transition-all ease-in-out duration-[200ms]">
+                    class="z-[2] absolute md:bottom-[-30px] bottom-[-150px] md:left-[-750px] left-[-390px] w-full h-[350px] bg-[#2c2c2c] rotate-45 transition-all ease-in-out duration-[200ms]">
 
                 </div>
                 <NuxtLink to="#">
