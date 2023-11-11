@@ -5,7 +5,7 @@
             <div class="w-full h-[40px] flex items-center  md:pt-[25px] md:pr-0 md:pl-0 ">
                 <div class="text flex items-center h-full md:pl-[0px] pl-[15px]">
                     <NuxtLink to="/">
-                        <h1 class=" text-[35px] font-bold">
+                        <h1 class=" md:text-[35px] text-[20px] md:mt-0 mt-[10px] font-bold">
                             Academy Digi/Tradi Arts Indonesia
                         </h1>
                     </NuxtLink>
@@ -34,7 +34,7 @@
                         class="pl-[5px] text-[#a1a09d] w-full h-full rounded-[100px] focus:outline-none active:border-none">
                 </div> -->
 
-                <div class="ml-[10px] md:hidden flex items-center">
+                <div class="ml-auto mr-[15px] mt-[10px] md:hidden flex items-center">
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                             stroke="currentColor" class="w-8 h-8">
@@ -187,7 +187,7 @@
                 <NuxtLink to="/" class="md:ml-0 ml-[15px] hover:text-[#ffcd43] transition-all ease-in-out duration-[200ms]">
                     Home
                 </NuxtLink>
-                <NuxtLink to="/freeClasses"
+                <NuxtLink to="/newss"
                     class="ml-[15px] hover:text-[#ffcd43] transition-all ease-in-out duration-[200ms]">
                     News
                 </NuxtLink>

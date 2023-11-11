@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Free Classes</h1>
+        <h1>COMING SOON !</h1>
     </div>
 </template>
 
