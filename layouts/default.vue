@@ -1,11 +1,11 @@
 <template>
-    <div class="w-full bg-black sticky top-0 flex items-center justify-center z-[10]">
+    <div class="w-full bg-black sticky top-0 flex items-center justify-center z-[10] overflow-hidden">
         <div
-            class="md:w-[1050px] w-full h-[85px] md:h-[105px] flex flex-col items-center justify-center bg-black text-white ">
+            class="md:w-[1050px] w-full h-[95px] md:h-[105px] flex flex-col justify-center bg-black text-white ">
             <div class="w-full h-[40px] flex items-center  md:pt-[25px] md:pr-0 md:pl-0 ">
-                <div class="text flex items-center h-full md:pl-[0px] pl-[15px]">
+                <div class="text flex items-center md:pl-[0px] pl-[15px]">
                     <NuxtLink to="/">
-                        <h1 class=" md:text-[35px] text-[20px] md:mt-0 mt-[10px] font-bold">
+                        <h1 class=" md:text-[35px] text-[20px] font-bold">
                             Academy Digi/Tradi Arts Indonesia
                         </h1>
                     </NuxtLink>
@@ -34,7 +34,7 @@
                         class="pl-[5px] text-[#a1a09d] w-full h-full rounded-[100px] focus:outline-none active:border-none">
                 </div> -->
 
-                <div class="ml-auto mr-[15px] mt-[10px] md:hidden flex items-center">
+                <div class="ml-auto mr-[15px] md:hidden flex items-center">
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                             stroke="currentColor" class="w-8 h-8">
@@ -102,7 +102,7 @@
 
 
 
-            <div id="links" class="w-full h-[20px] mt-auto mb-[15px] flex relative">
+            <div id="links" class=" w-[full] md:h-[20px] h-10px md:mt-[15px] mt-[3px] mb-[15px] flex relative text-[10px] md:text-[20px]">
                 <!-- <div id="categories" class="hidden md:flex items-center justify-center">
                     <button class="flex justify-center items-center">
                         <svg id="catArrow" :class="{ catClicked: cat_state }" xmlns="http://www.w3.org/2000/svg" fill="none"

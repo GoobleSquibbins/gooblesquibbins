@@ -17,14 +17,14 @@ import Dashboard from './Dashboard.vue';
 </script>
 
 <style>
-html, body {
+/* html, body {
     height: 101%;
-}
+} */
 
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
-  height: 10px;
+  /* height: 10px; */
 }
 
 /* Track */
