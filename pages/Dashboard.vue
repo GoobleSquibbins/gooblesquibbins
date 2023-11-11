@@ -55,7 +55,10 @@
             <div id="curr-event"
                 class="md:w-full w-[90%] md:h-[450px] h-[300px] bg-[#575757] overflow-hidden relative rounded-[10px]">
                 <div id="diagonal"
-                    class="z-[2] absolute md:bottom-[-30px] bottom-[-150px] md:left-[-750px] left-[-390px] w-full h-[350px] bg-[#2c2c2c] rotate-45 transition-all ease-in-out duration-[200ms]">
+                    class="hidden md:flex z-[2] absolute md:bottom-[-30px] bottom-[-150px] md:left-[-750px] left-[-390px] w-full h-[350px] bg-[#2c2c2c] rotate-45 transition-all ease-in-out duration-[200ms]">
+
+                </div>
+                <div id="horizontal-event" class="bg-[#2c2c2c] z-[3] w-full h-[15px] md:hidden block absolute bottom-0 transition-all ease-in-out duration-[200ms]">
 
                 </div>
                 <NuxtLink to="#">
@@ -64,7 +67,7 @@
                         src="https://static.fandomspot.com/images/12/23540/00-featured-lol-original-rakan-splash-image.jpg"
                         alt="">
                     <div id="event-title-txt"
-                        class="absolute md:bottom-[30px] bottom-[20px] md:left-[30px] left-[20px] z-[3] text-white font-semibold md:text-[50px] text-[30px] bg-[#2c2c2c] pr-[20px] transition-all ease-in-out duration-[200ms]">
+                        class="absolute md:bottom-[30px] bottom-[10px] md:left-[30px] left-[20px]  z-[3] text-white font-semibold md:text-[50px] text-[20px] bg-[#2c2c2c] p-[10px]  md:pr-[20px] md:p-0  transition-all ease-in-out duration-[200ms]">
                         <div class="flex items-center justify-center">
                             HYBRID
                         </div>
@@ -114,7 +117,8 @@ console.log(error)
 }
 
 #curr-event:hover #diagonal,
-#curr-event:hover #event-title-txt {
+#curr-event:hover #event-title-txt,
+#curr-event:hover #horizontal-event {
     background: #ffcd43;
     color: black;
 }
