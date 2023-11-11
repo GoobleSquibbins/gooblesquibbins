@@ -3,13 +3,16 @@
         <div class="w-full md:w-full flex flex-col items-center">
             <!-- <navbarr/> -->
             <Hero/>
-            <main_content/>
-            <foooter/>
+            <Dashboard/>
+            <New_artwork/>
+            <!-- <foooter/> -->
         </div>
     </div>
 </template>
 
 <script setup>
+import New_artwork from './new_artwork.vue';
+import Dashboard from './Dashboard.vue';
 
 </script>
 
@@ -21,6 +24,7 @@ html, body {
 /* width */
 ::-webkit-scrollbar {
   width: 5px;
+  height: 10px;
 }
 
 /* Track */

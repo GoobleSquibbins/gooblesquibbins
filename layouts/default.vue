@@ -1,17 +1,17 @@
 <template>
-    <div class="w-full bg-black sticky top-0 flex items-center justify-center z-[2]">
+    <div class="w-full bg-black sticky top-0 flex items-center justify-center z-[10]">
         <div
             class="md:w-[1050px] w-full h-[85px] md:h-[105px] flex flex-col items-center justify-center bg-black text-white ">
             <div class="w-full h-[40px] flex items-center  md:pt-[25px] md:pr-0 md:pl-0 ">
                 <div class="text flex items-center h-full md:pl-[0px] pl-[15px]">
                     <NuxtLink to="/">
-                        <h1 class=" text-[20px] font-bold">
-                            ADTAI GEN II
+                        <h1 class=" text-[35px] font-bold">
+                            Academy Digi/Tradi Arts Indonesia
                         </h1>
                     </NuxtLink>
                 </div>
 
-                <div class="searchbar flex items-center md:hidden
+                <!-- <div class="searchbar flex items-center md:hidden
                 border-1[px] ml-auto border-black border-solid rounded-[100px]">
                     <button>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
@@ -20,9 +20,9 @@
                                 d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                         </svg>
                     </button>
-                </div>
+                </div> -->
 
-                <div class="searchbar hidden
+                <!-- <div class="searchbar hidden
             w-[350px] h-[40px] ml-[20px] md:flex items-center bg-white
             rounded-[100px]">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -32,7 +32,7 @@
                     </svg>
                     <input type="text" placeholder="search"
                         class="pl-[5px] text-[#a1a09d] w-full h-full rounded-[100px] focus:outline-none active:border-none">
-                </div>
+                </div> -->
 
                 <div class="ml-[10px] md:hidden flex items-center">
                     <button>
@@ -45,15 +45,15 @@
                     </button>
                 </div>
 
-                <div class="signIn hidden md:flex items-center ml-auto hover:text-[#ffcd43]">
-                    <NuxtLink to="#" class="flex items-center justify-center">
+                <div class="signIn hidden md:flex items-center ml-auto hover:text-[#ffcd43] duration-[200ms]">
+                    <NuxtLink to="/login" class="flex items-center justify-center">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
                         </svg>
                         <h1 class="ml-[5px]">
-                            SignIn
+                            Login
                         </h1>
                     </NuxtLink>
                 </div>
@@ -102,8 +102,8 @@
 
 
 
-            <div id="links" class="w-full h-[20px] mt-auto mb-[15px] md:pl-[0px] pl-[15px] md:ml-0 flex items-center relative">
-                <div id="categories" class="hidden md:flex items-center justify-center">
+            <div id="links" class="w-full h-[20px] mt-auto mb-[15px] flex relative">
+                <!-- <div id="categories" class="hidden md:flex items-center justify-center">
                     <button class="flex justify-center items-center">
                         <svg id="catArrow" :class="{ catClicked: cat_state }" xmlns="http://www.w3.org/2000/svg" fill="none"
                             viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
@@ -182,9 +182,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <NuxtLink to="/" class="block md:hidden hover:text-[#ffcd43] transition-all ease-in-out duration-[200ms]">
+                <NuxtLink to="/" class="md:ml-0 ml-[15px] hover:text-[#ffcd43] transition-all ease-in-out duration-[200ms]">
                     Home
                 </NuxtLink>
                 <NuxtLink to="/freeClasses"
@@ -193,6 +193,9 @@
                 </NuxtLink>
                 <NuxtLink to="/best" class="ml-[15px] hover:text-[#ffcd43] transition-all ease-in-out duration-[200ms]">
                     Event
+                </NuxtLink>
+                <NuxtLink to="/whatsNew" class="ml-[15px] hover:text-[#ffcd43] transition-all ease-in-out duration-[200ms]">
+                    Guides
                 </NuxtLink>
                 <NuxtLink to="/whatsNew" class="ml-[15px] hover:text-[#ffcd43] transition-all ease-in-out duration-[200ms]">
                     Members
